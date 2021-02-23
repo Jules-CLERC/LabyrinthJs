@@ -1,0 +1,207 @@
+html {
+    overflow: hidden;
+
+    background: url("http://www.allwhitebackground.com/images/5/Black-Background-Image.jpg") no-repeat center center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color : white;
+}
+
+h2 {
+    color : white;
+}
+
+div {
+    color : white;
+}
+
+.divScore {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+#divHeader {
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.6));
+    margin: -8px;
+}
+
+#divLabyrinthArrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+:root {
+    --visionSize: 0;
+}
+
+@media screen and (orientation:landscape) {
+    #divLabyrinth {
+        width: 75vh;
+        height: 75vh;
+        border: 2px solid red;
+    }
+
+    .caseLabyrinth {
+        width: calc(75vh/var(--visionSize));
+        height: calc(75vh/var(--visionSize));
+    }
+
+    .imgCase {
+        position: absolute;
+        margin-top: 2px;
+        max-width: calc((75vh/var(--visionSize))*0.9);
+        max-height: calc((75vh/var(--visionSize))*0.9);
+    }
+}
+@media screen and (orientation:portrait) {
+    #divLabyrinth {
+        width: 80vw;
+        height: 80vw;
+        border: 2px solid red;
+    }
+
+    .caseLabyrinth {
+        width: calc(80vw/var(--visionSize));
+        height: calc(80vw/var(--visionSize));
+    }
+
+    .imgCase {
+        position: absolute;
+        margin-top: 2px;
+        max-width: calc((80vw/var(--visionSize))*0.9);
+        max-height: calc((80vw/var(--visionSize))*0.9);
+    }
+}
+
+#lvl1 {
+    margin-left: 100px;
+}
+
+#left {
+    margin-right: 100px;
+}
+
+#lvl3 {
+    margin-left: 100px;
+}
+
+#divHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+#divWelcome {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#divButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 2px;
+}
+
+.mainInput {
+ 
+}
+
+.mainInput:hover {
+    background-color: red;
+    box-shadow: 0 9px 12px 0 rgb(195, 195, 195), 0 13px 37px 0 rgb(196, 196, 196);
+}
+.mainInput:disabled {
+    background-color: grey;
+}
+
+.secondaryInput {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 12px;
+}
+
+.secondaryInput:hover {
+    background-color: red;
+    box-shadow: 0 12px 16px 0 rgb(195, 195, 195), 0 17px 50px 0 rgb(196, 196, 196);
+}
+.secondaryInput:disabled {
+    background-color: grey;
+}
+
+#selectName {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 2px solid red;
+}
+
+#divResultatJson {
+    width: 30%;
+    height: 30%;
+}
+
+.divPhotos {
+    border: 1px solid red;
+    border-style: dotted;
+}
+
+.imgProfil {
+    max-width:100%;
+    max-height:100%;
+}
+
+#imgProfilUser {
+    height: 80px;
+}
+
+#textHome {
+    margin-right: 5px;
+    font-size: 23px;
+}
+
+#textRules {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#divInfosSize {
+    color: red;
+}
+
+.warningSettings {
+    color: red;
+}
+
+.textSign {
+    color: white;
+    font-size: 30px;
+}
+
+#textConnect {
+    color: white;
+    font-size: 45px;
+}
+
+

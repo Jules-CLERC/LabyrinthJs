@@ -1,0 +1,65 @@
+{
+  "animaux": {
+    "title": "photos d'animaux",
+    "photos": [
+      {
+        "obj": "chien",
+        "lien": "images/imagesProfil/animaux/chien.png"
+      },
+      {
+        "obj": "chat",
+        "lien": "images/imagesProfil/animaux/chat.png"
+      },
+      {
+        "obj": "rat",
+        "lien": "images/imagesProfil/animaux/rat.png"
+      },
+      {
+        "obj": "hamster",
+        "lien": "images/imagesProfil/animaux/hamster.png"
+      }
+    ]
+  },
+  "jeuxVidéos": {
+    "title": "photos jeux vidéos",
+    "photos": [
+      {
+        "obj": "pacman",
+        "lien": "images/imagesProfil/jeuxVideos/pacman.png"
+      },
+      {
+        "obj": "sonic",
+        "lien": "images/imagesProfil/jeuxVideos/sonic.png"
+      },
+      {
+        "obj": "mario",
+        "lien": "images/imagesProfil/jeuxVideos/mario.png"
+      },
+      {
+        "obj": "pikachu",
+        "lien": "images/imagesProfil/jeuxVideos/pikachu.png"
+      }
+    ]
+  },
+  "voitures": {
+    "title": "photos de voitures",
+    "photos": [
+      {
+        "obj": "renault",
+        "lien": "images/imagesProfil/voitures/renault.png"
+      },
+      {
+        "obj": "fiat",
+        "lien": "images/imagesProfil/voitures/fiat.png"
+      },
+      {
+        "obj": "ferrari",
+        "lien": "images/imagesProfil/voitures/ferrari.png"
+      },
+      {
+        "obj": "porsche",
+        "lien": "images/imagesProfil/voitures/porsche.png"
+      }
+    ]
+  }
+}

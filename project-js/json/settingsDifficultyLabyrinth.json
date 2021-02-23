@@ -1,0 +1,22 @@
+{
+  "Facile": {
+    "visionSize": 5,
+    "nbKeys": 3,
+    "labyrinthSize": 11
+  },
+  "Normale": {
+    "visionSize": 5,
+    "nbKeys": 5,
+    "labyrinthSize": 29
+  },
+  "Difficile": {
+    "visionSize": 5,
+    "nbKeys": 7,
+    "labyrinthSize": 45
+  },
+  "Ultra difficile": {
+    "visionSize": 5,
+    "nbKeys": 11,
+    "labyrinthSize": 75
+  }
+}

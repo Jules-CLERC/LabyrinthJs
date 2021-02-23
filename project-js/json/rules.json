@@ -1,0 +1,50 @@
+{
+  "règles": {
+    "title": "règles du labyrinthe",
+    "speedText": 28,
+    "liste": [
+      {
+        "text": "Cliquez pour voir les règles du labyrinthe."
+      },
+      {
+        "text": "Lorsque vous lancez une partie, vous avez plusieurs niveaux de difficultés proposés."
+      },
+      {
+        "text": "Après avoir choisi la difficulté, la partie commence."
+      },
+      {
+        "text": "Le but est d'atteindre la sortie avec le score le plus petit possible."
+      },
+      {
+        "text": "Chaque action (même inutile) ajoute +1 à votre score."
+      },
+      {
+        "text": "Vous êtes le carré rouge, vous disposez de plusieurs moyens pour vous déplacer :"
+      },
+      {
+        "text": "les raccourcis clavier mis à votre disposition (flèches haut, bas, gauche, droite), les flèches directionnelles ou encore votre souris."
+      },
+      {
+        "text": "Une case noire représente un mur, tandis qu'une case blanche un vide."
+      },
+      {
+        "text": "Une case verte correspond à une clef. Il faut obtenir un certain nombre de clefs selon la difficulté choisie."
+      },
+      {
+        "text": "Ce nombre est bien évidemment précisé durant la partie."
+      },
+      {
+        "text": "Après avoir obtenu toutes les clefs, il faut se diriger vers la sortie (case bleue)."
+      },
+      {
+        "text": "La partie est alors terminée."
+      },
+      {
+        "text": "Vous avez la possibilité de voir vos résultats dans l'onglet 'Statistiques'."
+      },
+      {
+        "text": "Cet onglet montre toutes vos parties détaillant le score, la date et la difficulté."
+      }
+    ]
+  }
+}
