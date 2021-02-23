@@ -1,0 +1,2 @@
+# LabyrinthJs
+ IUT project JavaScript
